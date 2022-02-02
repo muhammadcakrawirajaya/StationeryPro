@@ -1,0 +1,21 @@
+to run the project
+1. Download the StationeryPro project/folder
+2. Open your code editor, i'm using netbeans.
+3. Load the project by open it from your code editor (or import it to your code editor)
+4. import all the libraries to the project (if you are being asked to import poi-javadoc-5.1.0.jar then just add poi-5.1.0.jar)
+5. Run The Project)
+
+*Note : You can run this project without download the database because i've 
+stored the database in cloud and connected it with this project, but maybe 
+in future the database will be removed from cloud, so you have to use your own server such as PHPMyAdmin.
+to store the database in PHPMyAdmin you have to do these things :
+1. Make sure you have XAMPP and run the apache and mysql server
+2. Go to localhost/phpmyadmin in your browser
+3. create a new database and name it as stationerypro and import the database.sql into the database that you just created.
+4. configure the database configuration in file named StationeryPro.java inside the project by following these steps :
+		1. change the String url to "jdbc:mysql://localhost:3306/stationerypro"
+		2. change the String user="root"
+		3. change the String pass=""
+save it and then run the project.
+
+if you just want to view this app. you can run the executable jar file with the name StationeryPro.jar or just view the screenshots.
