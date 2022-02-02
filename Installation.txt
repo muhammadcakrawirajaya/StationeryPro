@@ -2,8 +2,8 @@ to run the project
 1. Download the StationeryPro project/folder
 2. Open your code editor, i'm using netbeans.
 3. Load the project by open it from your code editor (or import it to your code editor)
-4. import all the libraries to the project (if you are being asked to import poi-javadoc-5.1.0.jar then just add poi-5.1.0.jar)
-5. Run The Project)
+4. resolve the project by imported all the libraries to the project in StationeryPro/dist/lib (match all the jar file)
+5. Run The Project
 
 *Note : You can run this project without download the database because i've 
 stored the database in cloud and connected it with this project, but maybe 
