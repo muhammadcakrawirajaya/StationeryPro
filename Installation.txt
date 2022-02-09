@@ -1,11 +1,17 @@
+pre-requisite : 
+1. Must have Netbeans 8 and java 8. link to download java+netbeans 8 bundle : https://drive.google.com/file/d/1tUT2IcXWEg9O1XfT54SkyawmCMzEDVhU/view?usp=sharing
+2. Configure your java to environment variables, to do that you can search the tutorial on youtube.
+*note if you already have java installed on your computer, uninstall it then download and install the java-netbeans 8 bundle with the link above.
+
 to run the project
 1. Download the StationeryPro project/folder
-2. Open your code editor, i'm using netbeans.
-3. Load the project by open it from your code editor (or import it to your code editor)
-4. resolve the project by match all the libraries jar file from StationeryPro/dist/lib
+2. Load the project by open it from netbeans
+3. resolve the project by match all the libraries jar file from StationeryPro/dist/lib
+4. if there are no library called MySQL JDBC Driver and Absolute Layout in package called libraries, you can easily add them by right-click on the package libraries the 
+click add library, search for it and then add it.
 5. Run The Project
 
-*Note : You can run this project without download the database because i've 
+*Note : You can run this project without having to download the database because i've 
 stored the database in cloud and connected it with this project, but maybe 
 in future the database will be removed from cloud, so you have to use your own server such as PHPMyAdmin.
 to store the database in your local PHPMyAdmin, you have to do these things :
